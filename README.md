@@ -1,2 +1,2 @@
 # ColorpickPRO
-Download Website for Colorpick - PRO
+Source code for the [colorpick.nl](https://colorpick.nl) website.
