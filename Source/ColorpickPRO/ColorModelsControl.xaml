@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="ColorpickPRO.ColorModelsControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ColorpickPRO"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <StackPanel Orientation="Horizontal">
+        <StackPanel Orientation="Vertical" Width="256" Margin="0,0,10,0">
+
+            <Border BorderBrush="White" BorderThickness="1" CornerRadius="5" Padding="5" Margin="0,5,5,5">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="RGB:" Foreground="White" Width="100"/>
+                    <TextBox x:Name="rgbTextBox" Background="Transparent" Foreground="White" KeyDown="RGB_KeyDown" Width="130" VerticalContentAlignment="Center" CaretBrush="White"/>
+                </StackPanel>
+            </Border>
+
+            <Border BorderBrush="White" BorderThickness="1" CornerRadius="5" Padding="5" Margin="0,5,5,5">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="CMYK:" Foreground="White" Width="100"/>
+                    <TextBox x:Name="cmykTextBox" Background="Transparent" Foreground="White" KeyDown="CMYK_KeyDown" Width="130" VerticalContentAlignment="Center" CaretBrush="White"/>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+
+        <StackPanel Orientation="Vertical" Width="256">
+            <Border BorderBrush="White" BorderThickness="1" CornerRadius="5" Padding="5" Margin="0,5,5,5">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="HSV:" Foreground="White" Width="100"/>
+                    <TextBox x:Name="hsvTextBox" Background="Transparent" Foreground="White" KeyDown="HSV_KeyDown" Width="130" VerticalContentAlignment="Center" CaretBrush="White"/>
+                </StackPanel>
+            </Border>
+
+            <Border BorderBrush="White" BorderThickness="1" CornerRadius="5" Padding="5" Margin="0,5,5,5">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="HSL:" Foreground="White" Width="100"/>
+                    <TextBox x:Name="hslTextBox" Background="Transparent" Foreground="White" KeyDown="HSL_KeyDown" Width="130" VerticalContentAlignment="Center" CaretBrush="White"/>
+                </StackPanel>
+            </Border>
+
+        </StackPanel>
+    </StackPanel>
+    
+</UserControl>

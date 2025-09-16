@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net9.0-windows10.0.17763.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWPF>true</UseWPF>
+		<ApplicationIcon>cpicon.ico</ApplicationIcon>
+		<IncludeAllContentForSelfExtract>true</IncludeAllContentForSelfExtract>
+		<SupportedOSPlatformVersion>10.0.17763.0</SupportedOSPlatformVersion>
+		<Platforms>AnyCPU;x64</Platforms>
+		<PublishSingleFile>true</PublishSingleFile>
+		<IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+		<SelfContained>true</SelfContained>
+		<PublishTrimmed>false</PublishTrimmed>
+		<StartupObject>ColorpickPRO.App</StartupObject>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="clipboard.png" />
+		<None Remove="cpicon.png" />
+		<None Remove="edit.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Content Include="cpicon.ico" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="System.Drawing.Common" Version="7.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Resource Include="clipboard.png" />
+		<Resource Include="cpicon.png" />
+		<Resource Include="edit.png" />
+	</ItemGroup>
+
+</Project>
