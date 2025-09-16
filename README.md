@@ -1,6 +1,8 @@
 # <img src="Images/icon.png" width="64" height="64"> Colorpick - PRO
 <img src="Images/app.png" Width="250">
 
+This application is also available on [Steam](https://store.steampowered.com/app/1388790/Colorpick__PRO/).
+
 # Description
 Colorpick - PRO is a lightweight and simple color picker for Windows.  
 It allows you to pick any color and view it in multiple formats such as RGB, CMYK, HSV, HSL, and HEX.
