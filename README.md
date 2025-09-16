@@ -9,7 +9,7 @@ It allows you to pick any color and view it in multiple formats such as RGB, CMY
 Download and launch the executable `ColorpickPRO.exe`.  
 The program is portable and does not require installation.
 
-[Releases](https://github.com/YourUserName/ColorpickPRO/releases)
+[Releases](https://github.com/jetspiking/ColorpickPRO/releases)
 
 # Features
 - Pick any color using a visual selector
